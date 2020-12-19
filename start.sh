@@ -42,7 +42,9 @@ sudo apt-get install python3-pip -y
 sudo apt install software-properties-common apt-transport-https curl -y
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt-get update
-sudo apt install code
+sudo apt-get install code -y
+sudo apt-get install tilda -y
+sudo apt-get install tilix -y
 sudo apt-get install linux-headers-$(uname -r)
 sudo apt-get install hcxdumptool -y
 sudo apt-get install hcxtools -y
