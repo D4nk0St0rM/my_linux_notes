@@ -45,6 +45,7 @@ sudo apt-get update
 sudo apt-get install code -y
 sudo apt-get install tilda -y
 sudo apt-get install tilix -y
+sudo apt-get install seclists -y 
 sudo apt-get install linux-headers-$(uname -r)
 sudo apt-get install hcxdumptool -y
 sudo apt-get install hcxtools -y
