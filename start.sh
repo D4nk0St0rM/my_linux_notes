@@ -8,6 +8,9 @@ rm -r Public/
 sudo setxkbmap -layout gb
 sudo apt-get update -y
 sudo apt install -y openvpn dialog python3-pip python3-setuptools
+wget -q -O - https://repo.protonvpn.com/debian/public_key.asc | sudo apt-key add 
+sudo add-apt-repository 'deb https://repo.protonvpn.com/debian unstable main'
+sudo apt-get update && sudo apt-get install protonvpn
 sudo apt-get install protonvpn-cli -y
 sudo apt-get install protonvpn-cli --upgrade -y
 sudo apt-get install gdebi-core -y
