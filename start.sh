@@ -50,6 +50,7 @@ sudo apt-get install linux-headers-$(uname -r)
 sudo apt-get install hcxdumptool -y
 sudo apt-get install hcxtools -y
 sudo apt-get install dnsutils -y
+sudo apt-get install exiftool -y
 sudo apt-get update
 sudo apt-get upgrade all -y
 sudo apt-get autoclean -y
