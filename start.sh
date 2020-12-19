@@ -43,11 +43,10 @@ sudo apt install software-properties-common apt-transport-https curl -y
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt-get update
 sudo apt install code
-sudo apt install hcxdumptool -y
-sudo apt install hcxtools -y
 sudo apt-get install linux-headers-$(uname -r)
 sudo apt-get install hcxdumptool -y
 sudo apt-get install hcxtools -y
+sudo apt-get install dnsutils -y
 sudo apt-get update
 sudo apt-get upgrade all -y
 sudo apt-get autoclean -y
