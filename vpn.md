@@ -1,3 +1,5 @@
+#### Protonvpn
+* * *
 #### How to install the official Linux beta app
 
     If you are using an older version of  our Linux client, we recommend that you uninstall it before installing the new app. 
@@ -30,10 +32,11 @@
 
     You will be prompted to enter your password. If you don’t have a ProtonVPN account you can sign up for one here.
 
+* * *
 
 
 ### FortiClient SSLVPN - Used with virtualhackinglabs
-
+* * *
 
     Open a Terminal session and run the following commands:
 
