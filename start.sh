@@ -23,6 +23,8 @@ sudo git clone https://github.com/leebaird/discover /opt/discover
 sudo git clone https://github.com/21y4d/nmapAutomator.git /opt/nmapAutomator
 sudo git clone https://github.com/TheRook/subbrute.git /opt/subbrute
 sudo git clone https://github.com/laramies/theHarvester.git /opt/theHarvester
+sudo git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester.git /opt/windows-exploit-suggester
+
 sudo touch /etc/apt/sources.list.d/insync.list
 sudo apt-get update
 sudo apt-get install insync -y
