@@ -24,7 +24,8 @@ sudo git clone https://github.com/21y4d/nmapAutomator.git /opt/nmapAutomator
 sudo git clone https://github.com/TheRook/subbrute.git /opt/subbrute
 sudo git clone https://github.com/laramies/theHarvester.git /opt/theHarvester
 sudo git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester.git /opt/windows-exploit-suggester
-sudo curl https://bootstrap.pypa.py -o get-pip.py; python get-pip.py
+sudo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py; python get-pip.py
+
 sudo touch /etc/apt/sources.list.d/insync.list
 sudo apt-get update
 sudo apt-get install insync -y
