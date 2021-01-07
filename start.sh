@@ -7,6 +7,8 @@ rm -r Videos/
 rm -r Public/
 sudo setxkbmap -layout gb
 sudo apt-get update -y
+sudo apt-get install dbus-x11
+sudo apt install gnome-themes-standard
 sudo apt install -y openvpn dialog python3-pip python3-setuptools
 wget -q -O - https://repo.protonvpn.com/debian/public_key.asc | sudo apt-key add 
 sudo add-apt-repository 'deb https://repo.protonvpn.com/debian unstable main'
