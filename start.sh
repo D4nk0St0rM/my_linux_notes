@@ -1,5 +1,8 @@
 #!/bin/bash
 
+    #### D4nk0St0rM
+    #### support not exploit, spread love, share knowledge, help others
+
 set -x
 rm -r Music/
 rm -r Templates/
