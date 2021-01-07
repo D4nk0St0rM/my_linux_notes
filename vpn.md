@@ -40,7 +40,8 @@
 
     Open a Terminal session and run the following commands:
 
-
+    wget https://www.virtualhackinglabs.com/wp-content/uploads/2017/03/forticlientsslvpn_linux_4.4_2336.tar.gz
+    
     tar -zxf forticlientsslvpn_linux_4.4_2336.tar.gz
 
     cd forticlientsslvpn
