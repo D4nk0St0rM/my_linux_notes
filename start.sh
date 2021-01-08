@@ -12,6 +12,7 @@ rm -r Public/
 sudo setxkbmap -layout gb
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF
 sudo apt-get update -y
+sudo apt-file update
 sudo apt-get dist-upgrade -y
 sudo apt-get install dbus-x11 -y
 sudo apt-get install gnome-themes-standard -y
