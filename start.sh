@@ -8,6 +8,7 @@ rm -r Music/
 rm -r Templates/
 rm -r Videos/
 rm -r Public/
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF
 sudo setxkbmap -layout gb
 sudo apt-get update -y
 sudo apt-get install dbus-x11
