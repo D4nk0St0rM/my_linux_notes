@@ -13,8 +13,8 @@ sudo setxkbmap -layout gb
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF
 sudo apt-get update -y
 sudo apt-get dist-upgrade -y
-sudo apt-get install dbus-x11
-sudo apt-get install gnome-themes-standard
+sudo apt-get install dbus-x11 -y
+sudo apt-get install gnome-themes-standard -y
 sudo apt-get install kali-linux-large -y
 #sudo apt install -y openvpn dialog python3-pip python3-setuptools
 wget -q -O - https://repo.protonvpn.com/debian/public_key.asc | sudo apt-key add 
