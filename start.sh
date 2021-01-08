@@ -63,6 +63,7 @@ sudo apt-get install hcxdumptool -y
 sudo apt-get install hcxtools -y
 sudo apt-get install dnsutils -y
 sudo apt-get install exiftool -y
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sudo apt-get update
 sudo apt-get upgrade all -y
 sudo apt-get autoclean -y
