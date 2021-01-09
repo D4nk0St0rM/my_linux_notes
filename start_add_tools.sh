@@ -13,7 +13,7 @@ sudo git clone https://github.com/21y4d/nmapAutomator.git /opt/nmapAutomator
 sudo git clone https://github.com/TheRook/subbrute.git /opt/subbrute
 sudo git clone https://github.com/laramies/theHarvester.git /opt/theHarvester
 sudo git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester.git /opt/windows-exploit-suggester
-sudo git clone https://github.com/trimstray/htrace.sh.git /opt/htrace
+# - Review : sudo git clone https://github.com/trimstray/htrace.sh.git /opt/htrace
 sudo git clone https://github.com/vulnersCom/nmap-vulners.git /usr/share/nmap/scripts/
 
 ### from sources.list
