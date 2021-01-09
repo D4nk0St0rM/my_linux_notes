@@ -28,14 +28,6 @@ sudo apt-get install protonvpn-cli --upgrade -y
 #sudo mv google-chrome-stable_current_amd64.deb /opt/google-chrome.deb
 #sudo gdebi /opt/google-chrome.deb -y
 sudo apt-get install joplin -y
-sudo git clone https://github.com/khast3x/h8mail /opt/h8mail
-sudo git clone https://github.com/leebaird/discover /opt/discover
-sudo git clone https://github.com/21y4d/nmapAutomator.git /opt/nmapAutomator
-sudo git clone https://github.com/TheRook/subbrute.git /opt/subbrute
-sudo git clone https://github.com/laramies/theHarvester.git /opt/theHarvester
-sudo git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester.git /opt/windows-exploit-suggester
-sudo git clone https://github.com/trimstray/htrace.sh.git /opt/htrace
-
 sudo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py; python get-pip.py
 sudo touch /etc/apt/sources.list.d/insync.list
 sudo echo "deb http://apt.insync.io/debian buster non-free contrib" > /etc/apt/sources.list.d/insync.list
@@ -49,7 +41,6 @@ sudo apt-get install insync -y
 #sudo rm Downloads/Nessus-8.13.0-debian6_amd64.deb
 sudo apt-get install linux headers-$(uname -r)
 #sudo usermod -a -G sudo <USERNAME>
-#sudo git clone https://github.com/vulnersCom/nmap-vulners.git /usr/share/nmap/scripts/
 sudo apt-get install npm -y
 #sudo apt-get install -y python3
 #sudo apt-get install python3-pip -y
@@ -57,19 +48,9 @@ sudo apt-get install software-properties-common apt-transport-https curl -y
 #sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 #sudo apt-get update
 sudo apt-get install code -y
-#sudo apt-get install tilda -y
-#sudo apt-get install tilix -y
-sudo apt-get install seclists -y 
-sudo apt-get install linux-headers-$(uname -r)
-sudo apt-get install hcxdumptool -y
-sudo apt-get install hcxtools -y
-sudo apt-get install dnsutils -y
-sudo apt-get install exiftool -y
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sudo apt-get update
 sudo apt-get upgrade all -y
 sudo apt-get autoclean -y
 sudo apt-get autoremove -y
-#touch ~/.hushlogin
-#clear
-#exec -l $SHELL
+
