@@ -12,14 +12,20 @@ echo -e "## This will run hopefully with the updated sources: "
 #set -x
 mytools="/opt/mytools"
 
+echo -e "update & upgrade"
+
+sudo apt-get update && apt-get upgrade
+sudo apt-get dist-upgrade -y
+
 echo -e "~#~ GB Keyboard"
 sudo setxkbmap -layout gb
 
 echo -e "~#~ update and install some fundamental tools for running environment"
-sudo apt-get update
 sudo apt-get install -y git
-sudo apt-get install -y python3.7 python3-pip python2.7 python-pip
-# sudo apt-get dist-upgrade -y
+# sudo apt-get install -y python3.7 python3-pip python2.7 python-pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+rm get-pip.py
 sudo apt-get install dbus-x11 -y
 sudo apt-get install gnome-themes-standard -y
 # sudo apt-get install kali-linux-large -y
