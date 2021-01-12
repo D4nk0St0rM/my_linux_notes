@@ -20,6 +20,13 @@ sudo apt-get dist-upgrade -y
 echo -e "~#~ GB Keyboard"
 sudo setxkbmap -layout gb
 
+echo -e "~#~ Terminal config for looks"
+### see here for further config changes: https://github.com/D4nk0St0rM/simple_linux_tweaks/blob/main/konsole_zsh_terminal.md
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+
+
 echo -e "~#~ update and install some fundamental tools for running environment"
 sudo apt-get install -y git
 # sudo apt-get install -y python3.7 python3-pip python2.7 python-pip
