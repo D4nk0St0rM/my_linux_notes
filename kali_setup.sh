@@ -116,7 +116,7 @@ cd ~/
 
 
 echo -e "~#~ Alisas in .bashrc for activating python environments: py3act, py2act"
-cat << EOF >> ~/.bashrc
+cat << EOF >> ~/.zshrc
 alias py2act='source ~/virtualenv/python2/bin/activate'
 alias py3act='source ~/virtualenv/python3/bin/activate'
 source ~/virtualenv/python3/bin/activate
