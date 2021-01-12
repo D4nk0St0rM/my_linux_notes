@@ -74,7 +74,6 @@ sudo touch /etc/apt/sources.list.d/insync.list
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A684470CACCAF35C
 sudo apt-get update
 sudo apt-get install insync -y
-sudo apt-get install code -y
 
 
 echo -e "~#~ install a bunch git clones to /opt/mytools"
