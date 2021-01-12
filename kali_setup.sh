@@ -4,7 +4,7 @@
     #### support not exploit, spread love, share knowledge, help others
 
 # update https://github.com/D4nk0St0rM/simple_linux_tweaks/blob/main/sources.list
-# create user to not require password for sudo [sudo visudo / username ALL=(ALL) NOPASSWD:ALL)
+# create user to not require password for sudo [sudo visudo / theUSER ALL=(ALL) NOPASSWD:ALL)
 # wallpaper: https://raw.githubusercontent.com/D4nk0St0rM/simple_linux_tweaks/main/wallpaper/Kali_dark_shadow_eye.jpg
 
 echo -e "## Hold on to your hats.... cats"
