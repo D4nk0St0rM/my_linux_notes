@@ -107,19 +107,23 @@ git clone https://github.com/Dhayalanb/windows-php-reverse-shell.git $mytools/wi
 echo -e $fg[yellow]"~#~ one-liner"$reset_color
 sudo git clone https://github.com/D4Vinci/One-Lin3r.git $mytools/one-liner
 sudo apt install libncurses5-dev
-sudo pip3 install .$mytools/one-liner/One-Lin3r --user
+cd /opt/mytools/one-liner/one_lin3r
+sudo git pull
+cd ../
+sudo python3 setup.py install
+cd ~/
 
 
 
-#echo -e "~#~ Alisas in .bashrc for activating python environments: py3act, py2act"
-#cat << EOF >> ~/.bashrc
-#alias py2act='source ~/virtualenv/python2/bin/activate'
-#alias py3act='source ~/virtualenv/python3/bin/activate'
-#source ~/virtualenv/python3/bin/activate
-#EOF
-#source ~/virtualenv/python3/bin/activate
-#echo -e ''
-
+echo -e "~#~ Alisas in .bashrc for activating python environments: py3act, py2act"
+cat << EOF >> ~/.bashrc
+alias py2act='source ~/virtualenv/python2/bin/activate'
+alias py3act='source ~/virtualenv/python3/bin/activate'
+source ~/virtualenv/python3/bin/activate
+EOF
+source ~/virtualenv/python3/bin/activate
+echo -e ''
+deactivate
 
 sudo apt-get update
 sudo apt-get upgrade all -y
