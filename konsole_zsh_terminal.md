@@ -132,4 +132,7 @@ source $ZSH/oh-my-zsh.sh
 #PROMPT='[%D]%m:%1~ %n#'
 #PROMPT="[%D][%T]-%n@%m:%d#"
 #RPROMPT="%?"
+
+export PATH="$PATH:[NEW_DIRECTORY]/bin"
+
 ```
