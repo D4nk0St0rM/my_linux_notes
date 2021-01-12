@@ -70,7 +70,8 @@ virtualenv -p python2 python2
 echo -e "~#~ install a bunch of new tools"
 sudo apt-get install joplin -y
 sudo touch /etc/apt/sources.list.d/insync.list
-sudo echo "deb http://apt.insync.io/debian buster non-free contrib" > /etc/apt/sources.list.d/insync.list
+### MANUPDATE : sudo echo "deb http://apt.insync.io/debian buster non-free contrib" > /etc/apt/sources.list.d/insync.list
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A684470CACCAF35C
 sudo apt-get update
 sudo apt-get install insync -y
 sudo apt-get install code -y
