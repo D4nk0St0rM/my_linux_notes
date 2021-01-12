@@ -31,7 +31,7 @@ echo -e "~#~ update and install some fundamental tools for running environment"
 sudo apt-get install -y git
 # sudo apt-get install -y python3.7 python3-pip python2.7 python-pip
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python get-pip.py
+sudo python get-pip.py
 rm get-pip.py
 sudo apt-get install dbus-x11 -y
 sudo apt-get install gnome-themes-standard -y
@@ -59,7 +59,10 @@ mkdir ~/virtualenv
 sudo mkdir /opt/mytools
 
 cd ~/virtualenv
+sudo apt-get install python3-pip -y
 pip3 install virtualenv
+##  WARNING: The script virtualenv is installed in '/home/USER/.local/bin' which is not on PATH.
+
 virtualenv -p python3 python3
 virtualenv -p python2 python2
 
