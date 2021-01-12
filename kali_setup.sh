@@ -105,7 +105,7 @@ $ python3 -m pip install -r $mytools/sherlock/requirements.txt
 echo -e $fg[yellow]"~#~ windows reverse shell"$reset_color
 git clone https://github.com/Dhayalanb/windows-php-reverse-shell.git $mytools/windows-reverse-shell
 echo -e $fg[yellow]"~#~ one-liner"$reset_color
-git clone https://github.com/D4Vinci/One-Lin3r.git $mytools/one-liner
+sudo git clone https://github.com/D4Vinci/One-Lin3r.git $mytools/one-liner
 sudo apt install libncurses5-dev
 sudo pip3 install .$mytools/one-liner/One-Lin3r --user
 
