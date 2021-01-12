@@ -75,7 +75,7 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A684470CACCAF35C
 sudo apt-get update
 sudo apt-get install insync -y
 sudo apt-get install code -y
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 
 echo -e "~#~ install a bunch git clones to /opt/mytools"
 echo -e "~#~ ~#~ ~#~ ~#~ ~#~ ~#~ ~#~ ~#~ ~#~"
