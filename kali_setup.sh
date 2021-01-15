@@ -141,7 +141,7 @@ cd ~/
 # https://github.com/CoreyD97/Stepper.git
 # https://github.com/nccgroup/autochrome.git
 # https://github.com/nccgroup/ScoutSuite.git
-# 
+# https://github.com/cwinfosec/revshellgen
 
 
 
