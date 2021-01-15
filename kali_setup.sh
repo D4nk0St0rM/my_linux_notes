@@ -83,28 +83,46 @@ sudo apt-get install seclists -y
 
 echo -e $fg[yellow]"~#~ h8mail"$reset_color
 sudo git clone https://github.com/khast3x/h8mail $mytools/h8mail
+
 echo -e $fg[yellow]"~#~ discover"$reset_color
 sudo git clone https://github.com/leebaird/discover $mytools/discover
+
 echo -e $fg[yellow]"~#~ nmap automator"$reset_color
 sudo git clone https://github.com/21y4d/nmapAutomator.git $mytools/nmapAutomator
+
 echo -e $fg[yellow]"~#~ subbrute"$reset_color
 sudo git clone https://github.com/TheRook/subbrute.git $mytools/subbrute
+
 echo -e $fg[yellow]"~#~ theHarvester"$reset_color
 sudo git clone https://github.com/laramies/theHarvester.git $mytools/theHarvester
+
 echo -e $fg[yellow]"~#~ windows exploit suggester"$reset_color
 sudo git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester.git $mytools/windows-exploit-suggester
+
 echo -e $fg[yellow]"~#~ nmap vulners"$reset_color
 sudo git clone https://github.com/vulnersCom/nmap-vulners.git /usr/share/nmap/scripts/
+
 echo -e $fg[yellow]"~#~ priv esc scripts"$reset_color
 sudo git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git $mytools/priv-esc-scripts
+
 echo -e $fg[yellow]"'~#~ sublist3r"$reset_color
 sudo git clone https://github.com/aboul3la/Sublist3r.git $mytools/sublist3r
+
 echo -e $fg[yellow]"~#~ sherlock"$reset_color
-git clone https://github.com/sherlock-project/sherlock.git $mytools/sherlock
+sudo git clone https://github.com/sherlock-project/sherlock.git $mytools/sherlock
+
 $ python3 -m pip install -r $mytools/sherlock/requirements.txt
 echo -e $fg[yellow]"~#~ windows reverse shell"$reset_color
-git clone https://github.com/Dhayalanb/windows-php-reverse-shell.git $mytools/windows-reverse-shell
+
+sudo git clone https://github.com/Dhayalanb/windows-php-reverse-shell.git $mytools/windows-reverse-shell
+echo -e $fg[yellow]"~#~ gobuster"$reset_color
+
+sudo git clone https://github.com/OJ/gobuster.git $mytools/gobuster
+echo -e $fg[yellow]"~#~ ffuf"$reset_color
+
+sudo git clone https://github.com/ffuf/ffuf.git $mytools/ffuf
 echo -e $fg[yellow]"~#~ one-liner"$reset_color
+
 sudo git clone https://github.com/D4Vinci/One-Lin3r.git $mytools/one-liner
 sudo apt install libncurses5-dev
 cd /opt/mytools/one-liner/one_lin3r
@@ -113,6 +131,14 @@ cd ../
 sudo python3 setup.py install
 cd ~/
 
+
+### other  
+# https://github.com/Rainsec/Tools.git
+# https://github.com/epi052/feroxbuster.git
+# https://github.com/pry0cc/axiom.git
+# https://github.com/CoreyD97/BurpCustomizer
+# https://github.com/CoreyD97/BurpTabEssentials
+# https://github.com/CoreyD97/Stepper.git
 
 
 echo -e "~#~ Alisas in .bashrc for activating python environments: py3act, py2act"
