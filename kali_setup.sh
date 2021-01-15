@@ -45,7 +45,7 @@ sudo apt-get install exiftool -y
 sudo apt-get install openvpn -y
 sudo apt-get install dialog -y
 sudo apt-get install protonvpn-cli -y
-
+sudo apt-get install edb-debugger -y
 
 echo -e $fg[yellow]"~#~ Some structure changes, deleting and creating folders, & virtual python envs"$reset_color
 rm -r Music/
@@ -141,6 +141,7 @@ cd ~/
 # https://github.com/CoreyD97/Stepper.git
 # https://github.com/nccgroup/autochrome.git
 # https://github.com/nccgroup/ScoutSuite.git
+# 
 
 
 
