@@ -142,7 +142,7 @@ cd ~/
 # https://github.com/nccgroup/autochrome.git
 # https://github.com/nccgroup/ScoutSuite.git
 # https://github.com/cwinfosec/revshellgen
-
+# https://github.com/g0tmi1k/msfpc
 
 
 echo -e "~#~ Alisas in .bashrc for activating python environments: py3act, py2act"
