@@ -139,6 +139,9 @@ cd ~/
 # https://github.com/CoreyD97/BurpCustomizer
 # https://github.com/CoreyD97/BurpTabEssentials
 # https://github.com/CoreyD97/Stepper.git
+# https://github.com/nccgroup/autochrome.git
+# https://github.com/nccgroup/ScoutSuite.git
+
 
 
 echo -e "~#~ Alisas in .bashrc for activating python environments: py3act, py2act"
