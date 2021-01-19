@@ -89,7 +89,7 @@ echo -e ${RED}"~#~ windows exploit suggester"${NC}
 sudo git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester.git $mytools/windows-exploit-suggester
 
 echo -e ${RED}"~#~ nmap vulners"${NC}
-sudo git clone https://github.com/vulnersCom/nmap-vulners.git /usr/share/nmap/scripts/
+sudo git clone https://github.com/vulnersCom/nmap-vulners.git /usr/share/nmap/scripts/vulners
 
 echo -e ${RED}"~#~ priv esc scripts"${NC}
 sudo git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git $mytools/priv-esc-scripts
