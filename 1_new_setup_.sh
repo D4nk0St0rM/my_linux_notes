@@ -99,15 +99,14 @@ sudo git clone https://github.com/aboul3la/Sublist3r.git $mytools/sublist3r
 
 echo -e ${RED}"~#~ sherlock"${NC}
 sudo git clone https://github.com/sherlock-project/sherlock.git $mytools/sherlock
-
 $ python3 -m pip install -r $mytools/sherlock/requirements.txt
+
 echo -e ${RED}"~#~ windows reverse shell"${NC}
-
 sudo git clone https://github.com/Dhayalanb/windows-php-reverse-shell.git $mytools/windows-reverse-shell
+
 echo -e ${RED}"~#~ gobuster"${NC}
-
 sudo git clone https://github.com/OJ/gobuster.git $mytools/gobuster
-echo -e ${RED}"~#~ ffuf"${NC}
 
+echo -e ${RED}"~#~ ffuf"${NC}
 sudo git clone https://github.com/ffuf/ffuf.git $mytools/ffuf
-echo -e ${RED}"~#~ one-liner"${NC}
+
