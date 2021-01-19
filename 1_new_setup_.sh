@@ -110,3 +110,7 @@ sudo git clone https://github.com/OJ/gobuster.git $mytools/gobuster
 echo -e ${RED}"~#~ ffuf"${NC}
 sudo git clone https://github.com/ffuf/ffuf.git $mytools/ffuf
 
+echo -e ${RED}"~#~ We are done, the cats are wearing their hats"${NC}
+echo -e ${YELLOW}"~#~ ~#~ ~#~ ~#~ ~#~ ~#~ ~#~ ~#~ ~#~"${NC}
+echo -e ${CYAN}"~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~"${NC}
+
