@@ -1,7 +1,7 @@
 #!/bin/bash
 
-    #### D4nk0St0rM
-    #### spread love, share knowledge
+#### D4nk0St0rM
+#### spread l0v3, share kn0wl3dge
 
 # update https://github.com/D4nk0St0rM/simple_linux_tweaks/blob/main/sources.list
 # create user to not require password for sudo [sudo visudo / theUSER ALL=(ALL) NOPASSWD:ALL)
