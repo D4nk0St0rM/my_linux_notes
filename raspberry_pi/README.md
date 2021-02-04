@@ -1,7 +1,8 @@
-##### using raspberry pi as remote tool box
+##### Using raspberry pi as remote tool box
 
 https://wiki.debian.org/RaspberryPi3
 
+##### Mount USB storage
 ```
 lsblk
 sudo fdisk /dev/sda
@@ -24,7 +25,7 @@ proc            /proc           proc    defaults          0       0
 LABEL=PIDRIVE1  /mnt/pidrive1   ext4    defaults,noatime  0       1
 ```
 
-#### Setting up Kali on raspberry pi [update etc/apt/sources.list]
+##### Setting up Kali on raspberry pi [update etc/apt/sources.list]
 
 ```
 sudo apt-get install kali-linux-headless
