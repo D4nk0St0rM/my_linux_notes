@@ -24,6 +24,12 @@ proc            /proc           proc    defaults          0       0
 LABEL=PIDRIVE1  /mnt/pidrive1   ext4    defaults,noatime  0       1
 ```
 
+#### Setting up Kali on raspberry pi [update etc/apt/sources.list]
+
+```
+sudo apt-get install kali-linux-headless
+sudo apt install kali-linux-default
+```
 
 
 
