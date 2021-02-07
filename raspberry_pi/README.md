@@ -13,6 +13,26 @@ sudo ufw allow ssh
 sudo ufw enable
 sudo ufw status
 ```
+#### Set up SFTP
+```
+mkdir -p /data
+chmod 701 /data
+groupadd sftp_users
+sudo groupadd sftp_users
+sudo useradd -g sftp_users -d /upload -s /sbin/nologin sftpuser1 
+sudo passwd sftpuser1
+mkdir /data/sftpuser1/upload
+mkdir /data/sftpuser1
+mkdir /data/sftpuser1/upload
+chown -R root:sftp_users /data/sftpuser1
+chown -R sftpuser1:sftp_users /data/sftpuser1/upload
+nano /etc/ssh/sshd_config
+Match Group sftp_users
+ChrootDirectory /data/%u
+ForceCommand internal-sftp
+###CTRL+C
+systemctl restart sshd
+```
 
 ##### Mount USB storage
 ```
