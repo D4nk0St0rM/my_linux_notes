@@ -3,6 +3,16 @@
 - [Debian](https://wiki.debian.org/RaspberryPi3)
 - [Kali](https://www.offensive-security.com/kali-linux-arm-images/)
 
+##### Set up SSH
+```
+sudo apt-get install openssh-server
+sudo systemctl status ssh
+sudo ufw allow ssh
+sudo apt-get install ufw
+sudo ufw allow ssh
+sudo ufw enable
+sudo ufw status
+```
 
 ##### Mount USB storage
 ```
