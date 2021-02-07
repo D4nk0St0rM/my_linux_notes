@@ -1,6 +1,8 @@
 ##### Using raspberry pi as remote tool box
 
-https://wiki.debian.org/RaspberryPi3
+- [Debian](https://wiki.debian.org/RaspberryPi3)
+- [Kali](https://www.offensive-security.com/kali-linux-arm-images/)
+
 
 ##### Mount USB storage
 ```
