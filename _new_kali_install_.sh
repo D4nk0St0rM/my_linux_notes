@@ -3,10 +3,8 @@
 ## D4nk0St0rM
 #### #### #### #### spread l0v3, share kn0wl3dge #### #### #### ####
 
-## Created after some inspiration from 
-## https://github.com/blacklanternsecurity/kali-setup-script/blob/master/kali-setup-script.sh
-# update https://github.com/D4nk0St0rM/simple_linux_tweaks/blob/main/sources.list
-# create user to not require password for sudo [sudo visudo / theUSER ALL=(ALL) NOPASSWD:ALL)
+# Created after some inspiration from https://github.com/blacklanternsecurity/kali-setup-script
+# Create user to not require password for sudo [sudo visudo / theUSER ALL=(ALL) NOPASSWD:ALL)
 
 RED='\e[1;31m'
 NC='\e[0m' # No Color
@@ -19,7 +17,19 @@ PURPLE='\e[1;35m'
 CYAN='\e[1;36m'
 
 echo -e "${RED}====================================================${NC}"
-echo -e "${GREEN}======== Push up your glasses Mr Magoo... ======${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${GREEN}============== D4nk0St0rM ==========================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${GREEN}======== Push up your glasses Mr Magoo... ==========${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${GREEN}======== spread l0v3, share kn0wl3dge ==============${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
 echo -e "${RED}====================================================${NC}"
 
 
