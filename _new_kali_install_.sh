@@ -370,7 +370,6 @@ echo -e "${RED}==============================================================${N
 sudo apt-get update -y 
 sudo apt-get upgrade -y 
 sudo apt-get autoremove -y
-updatedb
 
 echo -e "${RED}                                                            ${NC}"
 echo -e "${RED}                                                            ${NC}"
