@@ -15,22 +15,22 @@ YELLOW='\e[1;33m'
 BLUE='\e[1;34m'
 PURPLE='\e[1;35m'
 CYAN='\e[1;36m'
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${GREEN}==================== D4nk0St0rM ==============================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${GREEN}=========== spread l0v3, share kn0wl3dge =====================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${GREEN}========= Push up your glasses Mr Magoo... ===================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
 
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${GREEN}============== D4nk0St0rM ==========================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${GREEN}======== Push up your glasses Mr Magoo... ==========${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${GREEN}======== spread l0v3, share kn0wl3dge ==============${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${RED}====================================================${NC}"
 
 
 #### Run As Root - release if you want to run as root only install
@@ -246,7 +246,7 @@ echo -e "${GREEN}============================ - bettercap  ====================$
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
 
-sudo apt-get install libnetfilter-queue-dev libpcap-dev libusb-1.0-0-dev
+sudo apt-get install libnetfilter-queue-dev libpcap-dev libusb-1.0-0-dev 2>/dev/null
 go get -v github.com/bettercap/bettercap
 
 echo -e "${RED}==============================================================${NC}"
@@ -255,7 +255,8 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}============================ - SecLists  =====================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo apt-get install seclists -y
+sudo apt-get install seclists -y 2>/dev/null
+
 
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
@@ -263,7 +264,8 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}============================ - h8mail  =======================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo git clone https://github.com/khast3x/h8mail $mytools/h8mail
+sudo git clone https://github.com/khast3x/h8mail $mytools/h8mail 2>/dev/null
+
 
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
@@ -271,7 +273,8 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}=========================== - discover =======================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo git clone https://github.com/leebaird/discover $mytools/discover
+sudo git clone https://github.com/leebaird/discover $mytools/discover 2>/dev/null
+
 
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
@@ -279,7 +282,8 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}======================== - nmapautomator =====================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo git clone https://github.com/21y4d/nmapAutomator.git $mytools/nmapAutomator
+sudo git clone https://github.com/21y4d/nmapAutomator.git $mytools/nmapAutomator 2>/dev/null
+
 
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
@@ -287,7 +291,8 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}======================== - subbrute ==========================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo git clone https://github.com/TheRook/subbrute.git $mytools/subbrute
+sudo git clone https://github.com/TheRook/subbrute.git $mytools/subbrute 2>/dev/null
+
 
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
@@ -295,7 +300,8 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}======================== - theHarvester ======================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo git clone https://github.com/laramies/theHarvester.git $mytools/theHarvester
+sudo git clone https://github.com/laramies/theHarvester.git $mytools/theHarvester 2>/dev/null
+
 
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
@@ -303,7 +309,8 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}======================== - windows exploit suggester =========${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester.git $mytools/windows-exploit-suggester
+sudo git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester.git $mytools/windows-exploit-suggester 2>/dev/null
+
 
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
@@ -311,7 +318,8 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}======================== - nmap vulners ======================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo git clone https://github.com/vulnersCom/nmap-vulners.git /usr/share/nmap/scripts/vulners
+sudo git clone https://github.com/vulnersCom/nmap-vulners.git /usr/share/nmap/scripts/vulners 2>/dev/null
+
 
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
@@ -319,7 +327,8 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}======================== - priv esc scripts ==================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git $mytools/priv-esc-scripts
+sudo git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git $mytools/priv-esc-scripts 2>/dev/null
+
 
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
@@ -327,7 +336,8 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}======================== - sublist3r =========================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo git clone https://github.com/aboul3la/Sublist3r.git $mytools/sublist3r
+sudo git clone https://github.com/aboul3la/Sublist3r.git $mytools/sublist3r 2>/dev/null
+
 
 
 echo -e "${RED}==============================================================${NC}"
@@ -336,8 +346,9 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}======================== - sherlock ==========================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo git clone https://github.com/sherlock-project/sherlock.git $mytools/sherlock
+sudo git clone https://github.com/sherlock-project/sherlock.git $mytools/sherlock 2>/dev/null
 python3 -m pip install -r $mytools/sherlock/requirements.txt
+
 
 
 echo -e "${RED}==============================================================${NC}"
@@ -346,7 +357,8 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}======================== - windows reverse shell==============${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo git clone https://github.com/Dhayalanb/windows-php-reverse-shell.git $mytools/windows-reverse-shell
+sudo git clone https://github.com/Dhayalanb/windows-php-reverse-shell.git $mytools/windows-reverse-shell 2>/dev/null
+
 
 
 echo -e "${RED}==============================================================${NC}"
@@ -355,7 +367,8 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}======================== - gobuster ==========================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo git clone https://github.com/OJ/gobuster.git $mytools/gobuster
+sudo git clone https://github.com/OJ/gobuster.git $mytools/gobuster 2>/dev/null
+
 
 
 echo -e "${RED}==============================================================${NC}"
@@ -364,7 +377,8 @@ echo -e "${GREEN}================== Installing....... =========================$
 echo -e "${GREEN}======================== - ffuf ==============================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-sudo git clone https://github.com/ffuf/ffuf.git $mytools/ffuf
+sudo git clone https://github.com/ffuf/ffuf.git $mytools/ffuf 2>/dev/null
+
 
 echo -e "${RED}                                                            ${NC}"
 echo -e "${RED}                                                            ${NC}"
@@ -402,7 +416,3 @@ echo -e "${RED}==============================================================${N
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-
-
-
-
