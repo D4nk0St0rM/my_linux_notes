@@ -18,9 +18,9 @@ BLUE='\e[1;34m'
 PURPLE='\e[1;35m'
 CYAN='\e[1;36m'
 
-echo -e "${RED}===================================${NC}"
-echo -e "${GREEN}======== Lets go Mr Magoo... ======${NC}"
-echo -e "${RED}===================================${NC}"
+echo -e "${RED}====================================================${NC}"
+echo -e "${GREEN}======== Push up your glasses Mr Magoo... ======${NC}"
+echo -e "${RED}====================================================${NC}"
 
 
 #### Run As Root - release if you want to run as root only install
