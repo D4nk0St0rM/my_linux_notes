@@ -7,5 +7,7 @@
 
 ### Some links
 - [Kali Metapackages](https://tools.kali.org/kali-metapackages)
+- [My own Kali config / set up script](https://raw.githubusercontent.com/D4nk0St0rM/new_kali_instance_setup/main/kali_setup.sh)
+
 
 
