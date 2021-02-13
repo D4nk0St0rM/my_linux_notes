@@ -6,6 +6,10 @@
 # Created after some inspiration from https://github.com/blacklanternsecurity/kali-setup-script
 # Create user to not require password for sudo [sudo visudo / theUSER ALL=(ALL) NOPASSWD:ALL)
 
+#### install figlet & toilet
+sudo apt-get install figlet 2>/dev/null
+sudo apt-get install toilet 2>/dev/null
+
 RED='\e[1;31m'
 NC='\e[0m' # No Color
 reset_colour='\e[0m'
@@ -15,6 +19,12 @@ YELLOW='\e[1;33m'
 BLUE='\e[1;34m'
 PURPLE='\e[1;35m'
 CYAN='\e[1;36m'
+
+figlet -c d4nk0St0rM
+figlet -c spread l0v3 share kn0wl3dge
+toilet -f term -F border --gay "OK Mr Magoo...
+toilet -f term -F border --gay "...lets dooo this"
+
 
 echo -e "${RED}====================================================${NC}"
 echo -e "${RED}====================================================${NC}"
@@ -64,6 +74,8 @@ wget https://raw.githubusercontent.com/D4nk0St0rM/general_linux_notes/main/sourc
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.bakup
 sudo cp sources.list /etc/apt/sources.list
 rm sources.list
+
+
 
 #### add sources for visual studio
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -420,13 +432,8 @@ echo -e "${GREEN}======= consider install paid licence items ==================$
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
 echo -e "${RED}==============================================================${NC}"
-echo -e "${GREEN}==================== D4nk0St0rM ==============================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${GREEN}=========== spread l0v3, share kn0wl3dge =====================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
-echo -e "${RED}==============================================================${NC}"
+
+
+figlet -c d4nk0St0rM
+figlet -c spread l0v3 share kn0wl3dge
+
