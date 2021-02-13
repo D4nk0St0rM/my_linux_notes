@@ -134,5 +134,7 @@ source $ZSH/oh-my-zsh.sh
 #RPROMPT="%?"
 
 export PATH="$PATH:[NEW_DIRECTORY]/bin"
+autoload -U add-zsh-hook
+add-zsh-hook -Uz chpwd (){ ls -a; }
 
 ```
