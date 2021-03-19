@@ -7,3 +7,6 @@ sudo apt-get update
 sudo apt-get install google-chrome-stable
 ```
 
+#### burp suite
+
+[app store](https://portswigger.net/bappstore)
