@@ -1,0 +1,12 @@
+set nocompatible
+set wrapmargin=8
+set number
+set tabstop=4
+set softtabstop=4
+set expandtab
+set number
+set showcmd
+set cursorline
+set number
+set autoindent
+set laststatus=2
