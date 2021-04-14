@@ -1,6 +1,8 @@
-# /etc/apt/sources.list
+#### Add repo keys
 # wget -q -O - https://repo.protonvpn.com/debian/public_key.asc | sudo tee -a /usr/share/keyrings/protonvpn.asc
-# sudo echo "deb [signed-buy=/usr/share/keyrings/protonvpn.asc] https://repo.protonvpn.com/debian unstable main" >> /etc/apt/sources.list 
+# wget -q -O - https://packages.microsoft.com/keys/microsoft.asc | sudo tee -a /usr/share/keyrings/visualstudio.asc
+
+# /etc/apt/sources.list
 
 
 # See https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/
