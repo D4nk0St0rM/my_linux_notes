@@ -1,6 +1,5 @@
 #### Add repo keys
 # wget -q -O - https://repo.protonvpn.com/debian/public_key.asc | sudo tee -a /usr/share/keyrings/protonvpn.asc
-# wget -q -O - https://packages.microsoft.com/keys/microsoft.asc | sudo tee -a /usr/share/keyrings/visualstudio.asc
 
 # /etc/apt/sources.list
 
@@ -12,4 +11,3 @@ deb-src http://http.kali.org/kali kali-rolling main contrib non-free
 deb-src http://http.kali.org/kali kali-last-snapshot main non-free contrib
 # deb http://old.kali.org/kali moto main non-free contrib
 deb [signed-by=/usr/share/keyrings/protonvpn.asc] https://repo.protonvpn.com/debian unstable main
-deb [signed-by=/usr/share/keyrings/visualstudio.asc] https://packages.microsoft.com/repos/code stable main
