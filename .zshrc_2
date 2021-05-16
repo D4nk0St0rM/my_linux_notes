@@ -1,0 +1,41 @@
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
+
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
+
+COMPLETION_WAITING_DOTS="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+HIST_STAMPS="mm/dd/yyyy"
+
+plugins=(
+        git
+        zsh-syntax-highlighting
+        zsh-autosuggestions
+)
+
+
+source $ZSH/oh-my-zsh.sh
+
+HISTFILE=~/.zsh_history
+HISTSIZE=1000000
+SAVEHIST=2000000
+
+ if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vim'
+ else
+   export EDITOR='mvim'
+ fi
+
+autoload -U add-zsh-hook
+add-zsh-hook -Uz chpwd (){ ls; }
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
