@@ -2,6 +2,7 @@
 
 - [Debian](https://wiki.debian.org/RaspberryPi3)
 - [Kali](https://www.offensive-security.com/kali-linux-arm-images/)
+- [Shell script to build Debian SD card image](https://github.com/emojifreak/debian-rpi-image-script)
 
 ##### Set up SSH
 ```
